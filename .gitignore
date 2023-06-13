@@ -1,3 +1,6 @@
 venv*
 .idea
 .ipynb_checkpoints
+tst.ipynb
+__pycache__
+data
