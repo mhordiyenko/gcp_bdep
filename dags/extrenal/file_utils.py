@@ -3,6 +3,7 @@ import yaml
 import datetime
 from airflow.models import Variable
 
+
 def read_yaml(address: str) -> dict:
     """Reads yaml files
 
@@ -42,7 +43,6 @@ def create_file_name_with_timestamp(base_file_name, timestamped_dir=True):
     return new_file_path
 
 
-
 def get_airflow_var(name, from_env_var=True):
     if from_env_var:
         airflow_var = os.getenv(name)
@@ -52,5 +52,7 @@ def get_airflow_var(name, from_env_var=True):
         raise ValueError(f"Please specify {name} variable")
     return airflow_var
 
+
 # def get_dag_path():
 #     return '/home/airflow/gcs/dags/'
+

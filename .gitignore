@@ -4,3 +4,7 @@ venv*
 tst.ipynb
 __pycache__
 data
+listed.txt
+tst.py
+tst.ipynb
+hash_tst.ipynb
