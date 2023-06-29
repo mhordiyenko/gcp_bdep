@@ -1,8 +1,9 @@
-gcsfs==2023.5.0
+gcsfs==2023.6.0
 pandas==2.0.2
-google-cloud-bigquery==3.11.0
+google-cloud-bigquery==3.11.1
 google-cloud-storage==2.9.0
 httplib2==0.22.0
 google_auth_httplib2==0.1.0
-google_api_python_client==2.88.0
+google_api_python_client==2.89.0
 PyYAML==6.0
+apache-airflow==2.4.3
